@@ -1,0 +1,38 @@
+/* colors */
+:root{
+    --lightblue:#6295EF;
+    --blue:#006FFE;
+    --dark-orange:#8B4709;
+    --orange:#F99325;
+    --yellow:#FFFD00;
+    --gold:#FFD700;
+    --black:#2B2B2B;
+}
+
+.black{
+    background-color:var(--black);
+}
+
+.orange{
+    background-color:var(--orange);
+}
+
+.dark-orange{
+    background-color: var(--dark-orange);
+}
+
+.lightblue{
+    background-color:var(--lightblue);
+}
+
+.blue{
+    background-color:var(--blue)
+}
+
+.gold{
+    background-color:var(--gold)
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
