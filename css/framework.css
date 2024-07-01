@@ -16,16 +16,18 @@
 .main-row {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 	
-[class*="column-"] {
+[class*="column"] {
     flex: 0 0 auto;
     background-color:blue;
     color:white;
     text-align:center;
     padding:20px 0;
     border:1px solid white;
+    min-height:50px;
 }
 
 

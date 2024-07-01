@@ -6,9 +6,34 @@ html{
 
 .nested {
     background-color:green;
+    
+    border:1px solid blue;
 }
 
 .inner.main-row{
     padding-left:10px;
     padding-right:10px;
+}
+
+.bigger{
+    min-height:100px;
+}
+
+.main-row.start{
+    align-items:flex-start;
+}
+
+.main-row.center{
+    align-items:center;
+}
+
+.main-row.end{
+    align-items:flex-end;
+}
+
+.inner.main-row.around{
+    justify-content:space-around;
+}
+.inner.main-row.between{
+    justify-content:space-between;
 }
