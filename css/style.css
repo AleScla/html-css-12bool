@@ -4,3 +4,11 @@ html{
 
 /* prima sezione */
 
+.nested {
+    background-color:green;
+}
+
+.inner.main-row{
+    padding-left:10px;
+    padding-right:10px;
+}
