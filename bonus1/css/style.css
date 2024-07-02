@@ -36,3 +36,44 @@
 .yellow{
     background-color: var(--yellow);
 }
+
+
+.animation-left{
+    opacity:1;
+    animation-name:walk;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+}
+
+
+@keyframes walk{
+    0% {opacity:0;}
+
+    40% {opacity:1;}
+
+    100%{
+        opacity:0;
+    }
+}
+
+.animation-right{
+    opacity:1;
+    animation-name:walk1;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+}
+
+@keyframes walk1{
+    0% {opacity:1;}
+
+    50% {opacity:0;}
+
+    90%{
+        opacity:1;
+    }
+    
+}
